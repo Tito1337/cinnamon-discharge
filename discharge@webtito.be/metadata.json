@@ -1,0 +1,6 @@
+{
+"uuid": "discharge@webtito.be",
+"name": "Battery Discharge Rate",
+"description": "Show the current discharge rate of the battery",
+"icon": "battery"
+}

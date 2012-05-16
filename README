@@ -1,0 +1,5 @@
+Cinnamon Battery Discharge Applet v0.1
+By Tito <tito@webtito.be>
+
+Based on ACPI file /proc/acpi/battery/BAT0/state
+Hopefully yours is also in mA and mV
