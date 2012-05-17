@@ -41,6 +41,8 @@ MyApplet.prototype = {
         state = Rstate.exec(content)[1].toString();
         if(state=="charging") {
             text = _("Charging");
+        } else if(state=="charged") {
+            text = _("Charged");
         } else {
             Ramps = new RegExp("present rate:[^a-zA-Z0-9_]+([0-9]+)", "gi");
             Rvolts = new RegExp("present voltage:[^a-zA-Z0-9_]+([0-9]+)", "gi");
